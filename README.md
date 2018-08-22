@@ -11,6 +11,7 @@ This repository consists of the following files:
 - nginx.conf: a customized nginx configuration file
 - .gitignore: file keeping git from pulling SSL certificates into the repository
 - Dockerfile: Necessary in configuring nginx, essentially mounts files from the local machine to the image.
+- Launch Configurations: The script used in AWS EC2 launch configurations (ran at the startup of a new virtual machine).
 
 ## Choosing a Password Manager: NextCloud and Passman
 The password server hosts the NextCloud application, which comes with the Passman plug-in. 
